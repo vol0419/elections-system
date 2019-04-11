@@ -1,0 +1,104 @@
+#main{
+    min-height: 500px;
+    background-color: #ffa82a;
+}
+
+
+.nav
+{
+    width:100%;
+    padding: 10px 0;
+    background-color: white;
+    text-align: center;
+    border-top: 1px  soild #8b5213;;
+    border-bottom: 1px  soild #8b5213;;;
+
+}
+.footer
+{
+    text-align:center;
+    background-color: red;
+    padding: 30px;
+}
+.sticky
+{
+    width:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:100;
+
+}
+
+ol
+{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    font-size:18px;
+    height: 35px;
+    line-height:200%;
+    display:inline-block;
+
+
+}
+ol a
+{
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+ol >li
+{
+    float:left;
+    width:150px;
+    height:40px;
+    border-right: 1px dashed #003300;
+
+}
+ol>li:first-child
+{
+    border-left: 1px dashed #003300;
+}
+ol>li:hover
+{
+    background-color:red;
+
+}
+ol>li>ul
+{
+
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display:none;
+
+
+
+}
+ol >li:hover>ul
+{
+    display:block;
+}
+ol> li >ul > li
+{
+    background-color: white;
+    position: relative;
+    z-index:100;
+    border-top: 1px dashed #003300;
+}
+ol> li >ul > li:hover
+{
+    background-color: white;
+
+
+}
+a.tilelink
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+}
