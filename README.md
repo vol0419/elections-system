@@ -1,6 +1,4 @@
-# elections-system
-
-# University-Bussiness cooperation system
+# Elections System
 
 ### Technologies:
 
